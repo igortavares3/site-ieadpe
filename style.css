@@ -91,14 +91,19 @@ main > #corpo > iframe {
 .video {
     background-color: #E5E7EB;
     margin: auto;
-    display: flex;
+    position: relative;
     width: 90%;
     height: 90%;
+    
+
 }
 
 .video > iframe {
     width: 100%;
-    display: block;
+    position: absolute;
+    border-radius: 30px;
+    
+
    
     
 

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --cor01: #E5E7EB;
+    --cor02:#6CAFDB;
+    --cor03:#F28281;
+    --cor04:#4E5E69;
+    --cor05:#24333E;
+    --cor06:#00374E;
+    --font-principal: "Bebas Neue", sans-serif;
+}
+
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+
+
+
+}
+body { background-color: var(--cor06);
+
+}
+
+#cabeçario {
+    background-color: var(--cor01);
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#principal {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#menu > a{
+    color: #6CAFDB;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-decoration: solid;
+    font-size: 1.5em;
+    font-family: var(--font-principal);
+    
+}
+
+
+#principal a:hover {
+    border-radius: 10px;
+    background-color: var(--cor06);
+    
+    
+}
+
+#principal img {
+    height: 60px;
+    padding-left: 15px;
+    text-align: center;   
+}
+
+#principal > p {
+    padding-left: 15px;
+    font-size: 1.5em;
+   
+
+
+}
+
+main > #corpo {
+    padding-top: 50px;
+    max-width: 600px;
+    min-height: 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+main > #corpo > iframe {
+    border-radius: 30px;
+    width: 700px;
+    height: 400px;
+}
